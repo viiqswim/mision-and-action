@@ -20,10 +20,10 @@ const Header = () => (
           Services
         </AnchorLink> */}
         <AnchorLink className="px-4" href="#stats">
-          Stats
+          Resultados
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#testimonios">
+          Testimonios
         </AnchorLink>
       </div>
       <div className="hidden md:block">

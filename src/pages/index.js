@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
@@ -22,17 +22,19 @@ export default () => (
             Nuestra mision es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
             accion frecuente y constante.
           </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+          {/* <p className="mt-8 md:mt-12">
+            <Button size="lg" href="#vision">
+              Ver mas
+            </Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Aprende sobre nuestra vision</p> */}
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    {/* <section id="vision" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -65,15 +67,16 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     <SplitSection
-      id="services"
+      id="sobre-nosotros"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Vision</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            Creemos que depositando un granito de arena cada semana, en algunos años podremos ver
+            una gran montaña de generosidad y mejoras hacia el planeta creada por nuestro gran
+            labor.
           </p>
         </div>
       }
@@ -83,12 +86,11 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Objetivos</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            Para finales de el 2021 nos gustaria haber apoyado a 25 mascotas a conseguir un nuevo
+            hogar. Adicionalmente, para finales del mismo año, nos gustaria haber apoyado a 1
+            albergue a incrementar su numero de likes a 2,000 personas.
           </p>
         </div>
       }
@@ -97,13 +99,15 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
+          <h3 className="text-3xl font-semibold leading-tight">Nuestros Valores</h3>
+          <ul className="mt-8 text-xl font-light leading-relaxed">
+            <li>- Amor por el planeta</li>
+            <li>- Respeto</li>
+            <li>- Accion</li>
+            <li>- Trabajo en equipo</li>
+            <li>- Honestidad</li>
+            <li>- Mejora constante</li>
+          </ul>
         </div>
       }
       secondarySlot={<SvgCharts />}

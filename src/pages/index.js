@@ -16,25 +16,25 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Mision & Acción
+            Misión & Acción
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Nuestra mision es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
-            accion frecuente y constante.
+            Nuestra misión es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
+            acción frecuente y constante.
           </p>
           {/* <p className="mt-8 md:mt-12">
-            <Button size="lg" href="#vision">
+            <Button size="lg" href="#visión">
               Ver mas
             </Button>
           </p>
-          <p className="mt-4 text-gray-600">Aprende sobre nuestra vision</p> */}
+          <p className="mt-4 text-gray-600">Aprende sobre nuestra visión</p> */}
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    {/* <section id="vision" className="py-20 lg:pb-40 lg:pt-48">
+    {/* <section id="visión" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -72,7 +72,7 @@ export default () => (
       id="sobre-nosotros"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Vision</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Visión</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Creemos que depositando un granito de arena cada semana, en algunos años podremos ver
             una gran montaña de generosidad y mejoras hacia el planeta creada por nuestro gran
@@ -88,12 +88,12 @@ export default () => (
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">Objetivos</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Para finales de el 2021 nos gustaria haber apoyado a 25 mascotas a conseguir un nuevo
+            Para finales de el 2021 nos gustaría haber apoyado a 25 mascotas a conseguir un nuevo
             hogar.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Adicionalmente, para finales del mismo año, nos gustaria haber apoyado a 1 albergue a
-            incrementar su numero de likes a 2,000 personas.
+            Adicionalmente, para finales del mismo año, nos gustaría haber apoyado a 1 albergue a
+            incrementar su número de likes a 2,000 personas.
           </p>
         </div>
       }
@@ -106,7 +106,7 @@ export default () => (
           <ul className="mt-8 text-xl font-light leading-relaxed">
             <li>- Amor por el planeta</li>
             <li>- Respeto</li>
-            <li>- Accion</li>
+            <li>- Acción</li>
             <li>- Trabajo en equipo</li>
             <li>- Honestidad</li>
             <li>- Mejora constante</li>
@@ -146,7 +146,7 @@ export default () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Listos para cambiar el mundo?</h3>
       <p className="mt-8 text-xl font-light">
-        Contactanos! Manda un correo a v.dozal@live.com para ver como continuar apoyando a la mision
+        Contáctanos! Manda un correo a v.dozal@live.com para ver como continuar apoyando a la misión
         por medio de acción.
       </p>
       <p className="mt-8">

@@ -16,11 +16,11 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Mision y Accion
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Nuestra mision es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
+            accion frecuente y constante.
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>

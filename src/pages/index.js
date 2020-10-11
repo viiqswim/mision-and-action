@@ -89,8 +89,11 @@ export default () => (
           <h3 className="text-3xl font-semibold leading-tight">Objetivos</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Para finales de el 2021 nos gustaria haber apoyado a 25 mascotas a conseguir un nuevo
-            hogar. Adicionalmente, para finales del mismo año, nos gustaria haber apoyado a 1
-            albergue a incrementar su numero de likes a 2,000 personas.
+            hogar.
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Adicionalmente, para finales del mismo año, nos gustaria haber apoyado a 1 albergue a
+            incrementar su numero de likes a 2,000 personas.
           </p>
         </div>
       }

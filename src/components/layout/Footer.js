@@ -4,10 +4,10 @@ const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Sobre nosotros</h2>
+        <h2 className="text-lg font-semibold">Misión & Acción</h2>
         <p className="mt-5">
-          Nuestra mision es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
-          accion frecuente y constante.
+          Nuestra <b>mision</b> es ayudar a dejarle un mejor planeta a futuras generaciones por medio de
+          <b>accion</b> frecuente y constante.
         </p>
       </div>
       {/* <div className="flex-1 px-3">
